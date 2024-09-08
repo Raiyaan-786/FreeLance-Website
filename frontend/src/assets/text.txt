@@ -1,4 +1,4 @@
-Sbse phle - git pull origin main - krna
+git pull origin main - Sbse phle krna
 git checkout develop - Isse develop branch pr switch ho jaoge aur isi par kaam krna
 git .add - isse changes stage krna</d
 git commit -m "Changes done" - Isse changes commit krna</div>

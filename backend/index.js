@@ -8,14 +8,14 @@ mongoose.set("strictQuery", true);
 
 const connect = async () => {
     try {
-        await mongoose.connect(process.env.MONGO);
+        await mongoose.connect(process.env.MONGO_URL);
         console.log("Connected to MongoDB")
     } catch (error){
         console.log(error);
     }
 };
 
-app.listen(3000 , () => {
+app.listen(process.env.PORT ,() => {
     connect();
-    console.log("Backend Server Running on port 3000");
+    console.log(`Backend Server Running on port ${process.env.PORT}`);
 })
