@@ -1,9 +1,9 @@
 git pull origin main - Sbse phle krna
 git checkout develop - Isse develop branch pr switch ho jaoge aur isi par kaam krna
-git .add - isse changes stage krna</d
+git add . - isse changes stage krna</d
 git commit -m "Changes done" - Isse changes commit krna</div>
 git push -u origin develop - Isse origin pr push kr dena for time being
-Jb kaam concrete aur stable ho jaaye tb</d
+Jb kaam concrete aur stable ho jaaye tb
 git checkout main - Isse main branch pr switch kr jaoge</d
 git merge develop - Isse main branch merge ho jaege develop branch me </d
 git push origin main - Fir main branch ko push kr dena</d
